@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import '../src/app.css';
+import "./App.css";
 
 function App() {
   const [search, setSearch] = useState("");
