@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import '../app.css';
+import './app.css'; // Import CSS file with relative path
 
 function App() {
   const [search, setSearch] = useState("");
