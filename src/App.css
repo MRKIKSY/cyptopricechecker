@@ -1,0 +1,82 @@
+/* app.css */
+
+.App {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 40px;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  }
+  
+  h2 {
+    color: white;
+    background-color: forestgreen;
+    padding: 15px 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+    border: 2px solid forestgreen; /* Add border */
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    text-transform: uppercase; /* Convert text to uppercase for emphasis */
+    letter-spacing: 2px; /* Add letter spacing for readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow for depth */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: all 0.1s ease; /* Add transition for smooth hover effect */
+  }
+  
+  h2:hover {
+    background-color: white;
+    color: forestgreen;
+    transform: scale(1.1); /* Increase scale on hover for a more rigorous effect */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover for depth */
+  }
+  
+  
+  input[type="text"] {
+    padding-left: 5px;
+    font-size: 20px;
+    width: 250px;
+    height: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+  }
+  
+  thead th {
+    padding: 7px;
+  }
+  
+  tbody tr {
+    text-align: center;
+  }
+  
+  .rank {
+    font-weight: bold;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .symbol {
+    text-align: center;
+  }
+  
